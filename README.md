@@ -1,31 +1,93 @@
-# Kovon – Production-Ready Landing Page
+# Frontend Developer Hiring Assignment – Kovon Landing Page
 
-A complete, high-performance landing page application built with **Next.js 14**, **TypeScript**, **Material UI (MUI)**, and **Tailwind CSS**.
+This repository contains my submission for the **Frontend Developer Hiring Assignment**.
 
----
-
-## 🌟 Features
-
-- **Modern Stack**: Next.js 14 App Router with Server Components.
-- **Responsive Navigation**: Sticky header with mobile-responsive drawer.
-- **Hero Section**: High-impact section with gradient backgrounds and modern typography.
-- **Services Section**: Interactive service cards with hover animations and modern UI styling.
-- **Features Grid**: Responsive 4-column layout (Desktop) featuring MUI icons and smooth hover effects.
-- **How It Works**: Visual step-by-step progress guide (1 → 2 → 3 → 4).
-- **Comprehensive Footer**: Deep navigation, social links, and legal meta-links.
-- **Dark Mode Ready**: Custom MUI theme with modern dark UI support.
-- **Type Safety**: Full TypeScript implementation with strict interfaces.
-- **Styling Strategy**: Seamless integration of Tailwind CSS for layout/utilities and MUI for components/theming.
+The task was to build a responsive, production-ready landing page replicating the homepage UI of **Kovon.io**, using the required modern frontend stack.
 
 ---
 
-## 🛠 Prerequisites
+## 📌 Project Overview
 
-- Node.js 18.17.0 or later  
-- npm (or yarn/pnpm)
+A pixel-accurate, fully responsive landing page built with:
+
+- Next.js (App Router)
+- React.js
+- TypeScript
+- Material UI
+- Tailwind CSS
+
+The implementation focuses on clean component architecture, responsiveness, reusable UI sections, and TypeScript best practices.
 
 ---
 
-## 📦 Installation
+## ✅ Sections Implemented
+
+- Header (Sticky navbar + Mobile hamburger menu)
+- Hero Section (Headline, CTA, gradient background)
+- Services / Features Section (4 feature cards with hover effects)
+- How It Works Section (Step-based layout)
+- Footer (Quick links + Social icons UI)
+
+---
+
+## 🛠️ Technology Stack
+
+- **Next.js 14+**
+- **React 18+**
+- **TypeScript (No `any` used)**
+- **Material UI (Latest)**
+- **Tailwind CSS**
+
+---
+
+## 📂 Folder Structure
+
+```bash
+app/
+ ├── layout.tsx
+ ├── page.tsx
+
+components/
+ ├── header/
+ │     └── Header.tsx
+ ├── hero/
+ │     └── HeroSection.tsx
+ ├── features/
+ │     ├── FeatureCard.tsx
+ │     └── FeaturesSection.tsx
+ ├── how-it-works/
+ │     └── HowItWorks.tsx
+ └── footer/
+       └── Footer.tsx
+
+constants/
+ └── content.ts
+
+types/
+ └── index.ts
+⚙️ Setup Instructions
+
+To run this project locally:
+
+1. Clone the repository
+git clone https://github.com/Priyaltiwari02/kovon_assignment.git
+
+2. Navigate into the project directory
+cd kovon_assignment
+
+3. Install dependencies
+npm install
+
+4. Start the development server
+npm run dev
+
+
+The project will run at:
+
+http://localhost:3000
+
+🌐 Deployed Live Version
+
+Live URL: https://kovon-assignment.vercel.app/
 
 
