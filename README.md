@@ -1,14 +1,14 @@
 # Frontend Developer Hiring Assignment – Kovon Landing Page
 
-This repository contains my submission for the **Frontend Developer Hiring Assignment**.
+This repository contains my submission for the Frontend Developer Hiring Assignment.
 
-The task was to build a responsive, production-ready landing page replicating the homepage UI of **Kovon.io**, using the required modern frontend stack.
+The objective of this task was to build a responsive, production-ready landing page replicating the homepage UI of Kovon.io using the required modern frontend technology stack.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-A pixel-accurate, fully responsive landing page built with:
+A pixel-accurate and fully responsive landing page built with:
 
 - Next.js (App Router)
 - React.js
@@ -16,78 +16,122 @@ A pixel-accurate, fully responsive landing page built with:
 - Material UI
 - Tailwind CSS
 
-The implementation focuses on clean component architecture, responsiveness, reusable UI sections, and TypeScript best practices.
+The implementation focuses on clean component architecture, reusable UI sections, styling consistency, and TypeScript best practices.
 
 ---
 
-## ✅ Sections Implemented
+## Sections Implemented
 
-- Header (Sticky navbar + Mobile hamburger menu)
-- Hero Section (Headline, CTA, gradient background)
-- Services / Features Section (4 feature cards with hover effects)
+- Header (Sticky navigation with mobile hamburger menu)
+- Hero Section (Headline, subheading, call-to-action)
+- Features / Services Section (Feature cards with hover effects)
 - How It Works Section (Step-based layout)
-- Footer (Quick links + Social icons UI)
+- Footer (Quick links and social icons UI)
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
-- **Next.js 14+**
-- **React 18+**
-- **TypeScript (No `any` used)**
-- **Material UI (Latest)**
-- **Tailwind CSS**
+- Next.js 14+
+- React 18+
+- TypeScript (No `any` usage)
+- Material UI (Latest)
+- Tailwind CSS
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```bash
-app/
- ├── layout.tsx
- ├── page.tsx
+src/
+ ├── app/
+ │     ├── layout.tsx
+ │     ├── page.tsx
+ │     └── globals.css
+ │
+ ├── components/
+ │     ├── header/
+ │     │     └── Header.tsx
+ │     ├── hero/
+ │     │     └── HeroSection.tsx
+ │     ├── features/
+ │     │     ├── FeatureCard.tsx
+ │     │     └── FeaturesSection.tsx
+ │     ├── how-it-works/
+ │     │     └── HowItWorks.tsx
+ │     ├── services/
+ │     │     └── Services.tsx
+ │     └── footer/
+ │           └── Footer.tsx
+ │
+ ├── constants/
+ │     └── content.ts
+ │
+ ├── theme/
+ │     └── theme.ts
+ │
+ └── types/
+       └── index.ts
 
-components/
- ├── header/
- │     └── Header.tsx
- ├── hero/
- │     └── HeroSection.tsx
- ├── features/
- │     ├── FeatureCard.tsx
- │     └── FeaturesSection.tsx
- ├── how-it-works/
- │     └── HowItWorks.tsx
- └── footer/
-       └── Footer.tsx
+README.md
+package.json
+tailwind.config.ts
+tsconfig.json
+next-env.d.ts
+postcss.config.js
+.env.example
 
-constants/
- └── content.ts
+```
+## Setup Instructions
 
-types/
- └── index.ts
-⚙️ Setup Instructions
+### 1: Clone the Repository
+        git clone https://github.com/priyaltiwari02/kovon_assignment.git
 
-To run this project locally:
+### 2: Navigate into the Project Directory
+        cd kovon_assignment
 
-1. Clone the repository
-git clone https://github.com/Priyaltiwari02/kovon_assignment.git
+### 3: Install Dependencies
+        npm install
 
-2. Navigate into the project directory
-cd kovon_assignment
-
-3. Install dependencies
-npm install
-
-4. Start the development server
-npm run dev
+### 4: Start the Development Server
+        npm run dev
 
 
-The project will run at:
+### The project will run at:
 
-http://localhost:3000
+    http://localhost:3000
 
-🌐 Deployed Live Version
+ ```
+```
+## Deployed Live Version
 
-Live URL: https://kovon-assignment.vercel.app/
+   https://kovon-assignment.vercel.app/
+```
+```
+## Walkthrough Recording
 
 
+```
+```
+## Design Decisions
+
+- Built each section as a reusable functional component
+- Used TypeScript interfaces for clean prop handling
+- Combined Tailwind utilities with Material UI for consistent styling
+- Ensured responsiveness across mobile, tablet, and desktop breakpoints
+- Maintained clean folder organization and naming conventions
+```
+```
+## Submission Details
+
+- Next.js Version Used: 14+
+- UI Reference: https://www.kovon.io
+- Repository: https://github.com/priyaltiwari02/kovon_assignment
+- Deployed URL: https://kovon-assignment.vercel.app/
+```
+```
+
+## Author
+
+Priyal Tiwari
+```
